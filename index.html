@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>title</title>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+const common =['1 斡旋屋一家の新入り (SNC) 5', '1 ラフィーンの導き (SNC) 25', '1 安全の加護 (SNC) 4', '1 ラフィーンの密通者 (SNC) 26', '1 空の叫び屋 (SNC) 31', '1 支援工作員 (SNC) 2', '1 身代金の要求 (SNC) 16', '1 力の天啓 (SNC) 28', '1 鼓舞する監視者 (SNC) 18', '1 集まる群衆 (SNC) 13', '1 必殺の一射 (SNC) 19', '1 粋な盾仲間 (SNC) 9', '1 著名な剣士 (SNC) 7', '1 口止め (SNC) 6', '1 裏酒場の給仕人 (SNC) 32', '1 捨て石の従僕 (SNC) 43', '1 証人保護 (SNC) 66', '1 かき消し (SNC) 49', '1 斡旋屋一家の古参 (SNC) 36', '1 警備の抜け道 (SNC) 59', '1 軽蔑的な一撃 (SNC) 39', '1 裏通りの暴れ者 (SNC) 35', '1 屋上の迷惑 (SNC) 57', '1 常夜会一家の新入り (SNC) 50', '1 壮麗なる変化 (SNC) 48', '1 超常使いの詮索者 (SNC) 53', '1 こだまの検察官 (SNC) 40', '1 下見 (SNC) 37', '1 都落ち (SNC) 58', '1 下水クロコダイル (SNC) 60', '1 殺しの競技者 (SNC) 73', '1 なすりつけ (SNC) 84', '1 死の偽装 (SNC) 79', '1 真実の抽出 (SNC) 78', '1 堕落した廷臣 (SNC) 70', '1 歪んだ守衛 (SNC) 71', '1  貴顕廊一家の新入り (SNC) 86', '1 殺害 (SNC) 88', '1 屍体の掘り起こし (SNC) 76', '1 真夜中の暗殺者 (SNC) 87', '1 悪魔の本分 (SNC) 75', '1 宴をかき乱す者 (SNC) 91', '1 交渉の難航 (SNC) 74', '1 貴顕廊一家への入団 (SNC) 85', '1 橋桁のうすのろ (SNC) 80', '1 黄金犬 (SNC) 108', '1 果敢な逃亡 (SNC) 104', '1 絞殺 (SNC) 125', '1 盗み癖 (SNC) 124', '1 削岩機 (SNC) 111', '1 騒乱の巡回者 (SNC) 114', '1 着火 (SNC) 113', '1 土建組一家の新入り (SNC) 120', '1 反感煽り (SNC) 100', '1 機知ある怨怒取り (SNC) 131', '1 表舞台の奇術師 (SNC) 106', '1 プラズマの操作手 (SNC) 115', '1 大勝ち (SNC) 102', '1 解体作業員 (SNC) 132', '1 喧嘩上等 (SNC) 119', '1 一家のために (SNC) 146', '1 舞台座一家の新入り (SNC) 137', '1 市民の庭師 (SNC) 140', '1 従者つきの社交家 (SNC) 133', '1 賭け試 合 (SNC) 154', '1 温かい歓迎 (SNC) 164', '1 壊れた翼 (SNC) 136', '1 高層の鋸術屋 (SNC) 150', '1 最重要指名手配 (SNC) 153', '1 社交界の野心家 (SNC) 157', '1 宝石泥棒 (SNC) 151', '1 カペナ特急 (SNC) 139', '1 煌き売り (SNC) 149', '1 カルダイヤの力自慢 (SNC) 138', '1 ロウクスの打撃手 (SNC) 155', '1 天橋塔 (SNC) 256', '1 天界の整調者 (SNC) 174', '1 水辺地区 (SNC) 259', '1 詮索する新聞記者 (SNC) 222', '1 路面列車駅 (SNC) 258', '1 殺人魔 (SNC) 168', '1 環状競走路 (SNC) 253', '1 ジェトミアの仲介者 (SNC) 194', '1 植物広場 (SNC) 247', '1 市民の奉仕者 (SNC) 176', '1 砕かれた熾 天使 (SNC) 221', '1 妖艶な無法者 (SNC) 190', '1 覆面の匪賊 (SNC) 201', '1 放蕩の歓楽者 (SNC) 214', '1 スパーラの審判者 (SNC) 224', '1 斡旋屋一家の潜伏先 (SNC) 248', '1 貴顕廊一家の劇場 (SNC) 251', '1 常夜会一家の店先 (SNC) 252', '1 土建組一家の監督所 (SNC) 255', '1 舞台座一家の中庭 (SNC) 249', '1 不吉な小包 (SNC) 241', '1 金色の両翼 (SNC) 238', '1 光素のスカラベ (SNC) 239', '1 金属猫 (SNC) 236', '1 早抜きの短剣 (SNC) 243', '1 近代性の模範 (SNC) 242'];
+const uncommon=['1 薄暮の刻み獣 (SNC) 77', '1 墓所の変容 (SNC) 81', '1 毒の目利き (SNC) 161', '1 常夜会一家の魔除け (SNC) 208', '1 大火槌の放火魔 (SNC) 118', '1 屈服の拒否 (SNC) 27', '1 市民の鉄梃(SNC) 8', '1 照光の巨匠 (SNC) 17', '1 噂の蒐集家 (SNC) 29', '1 継ぎ当て (SNC) 23', '1 痛烈な一撃 (SNC) 20', '1 魔道士の従者 (SNC) 21', '1 舞い降りる守護者 (SNC) 33', '1 舞踏場の喧嘩屋 (SNC) 3', '1 天使の観察者 (SNC) 1', '1 とんずら (SNC) 62', '1 断れない提案 (SNC) 51', '1 惑乱のいかさま師 (SNC) 45', '1 フェアリーの荒らし屋 (SNC) 44', '1 耳打ち (SNC) 47', '1 公共の敵 (SNC) 55', '1 翼盾の工作員 (SNC) 64', '1 一蹴 (SNC) 52', '1 魚の餌になる (SNC) 61', '1 超能力すり (SNC) 54', '1 忌まわしい印章 (SNC) 82', '1 酒場の詐取師 (SNC) 96', '1 ラフィーンの口封じ (SNC) 90', '1 悪党の展示場 (SNC) 92', '1 夜の棍棒使い (SNC) 89', '1 鞭打 (SNC) 99', '1 吸血鬼の公証人 (SNC) 98', '1 無許可の発送 (SNC) 83', '1 不運な目撃者 (SNC) 128', '1 書庫荒らし (SNC) 122', '1 土建組一家の調達者 (SNC) 121', '1 プロの招聘 (SNC) 103', '1 輝く備蓄品 (SNC) 107', '1 不本意な雇用 (SNC) 110', '1 猛炎のソリスト (SNC) 123', '1 喧嘩腰の拳闘士 (SNC) 117', '1 松明吹き (SNC) 127', '1 土 建組一家の囮 (SNC) 156', '1 用心棒の荒事 (SNC) 135', '1 害獣の声 (SNC) 163', '1 洗練された随員 (SNC) 143', '1 街宣行進 (SNC) 158', '1 無所属の筋肉達磨 (SNC) 147', '1 掃除係 (SNC) 141', '1 豪 勢な献酒 (SNC) 152', '1 風変わりなペット (SNC) 185', '1 大都市の天使 (SNC) 203', '1 染みついた耽溺 (SNC) 227', '1 組織の潜入者 (SNC) 226', '1 致命的遺恨 (SNC) 187', '1 鍛冶場の親方 (SNC) 189', '1 ロウクスの保安員 (SNC) 220', '1 給付金 (SNC) 225', '1 儀礼用シャベル (SNC) 175', '1 群衆の寵児 (SNC) 181', '1 敏捷な窃盗犯 (SNC) 205', '1 苦悶の占い師、クェザ (SNC) 212', '1 貴顕廊一家の魔除け (SNC) 199', '1 死体鑑定士 (SNC) 178', '1 妖艶な泥棒、コルメラ (SNC) 177', '1 作業員の上長 (SNC) 180', '1 土建組一家の魔除け (SNC) 217', '1 磐石、ミスター・オルフィオ (SNC) 204', '1 厚 顔な成り上がり (SNC) 169', '1 舞台座一家の魔除け (SNC) 173', '1 舞台座一家の料理人、ロッコ (SNC) 218', '1 斡旋屋一家の魔除け (SNC) 171', '1 規律正しい決闘者 (SNC) 182', '1 雑集家、ラグレーラ (SNC) 196', '1 急使の手提げ鞄 (SNC) 142', '1 セメントの靴 (SNC) 235', '1 電弧放出機 (SNC) 233', '1 怪しげな書架 (SNC) 245', '1 小走りの執事機 (SNC) 244', '1 真鍮の拳 (SNC) 234'];
+const rare=['1 大衆蜂起 (SNC) 24', '1 謎めいたリムジン (SNC) 22', '1 損切り (SNC) 38', '1 終末の影 (SNC) 94', '1 構造的突撃 (SNC) 126', '1 策謀の故買人 (SNC) 219', '1 ジアトラの試練場 (SNC) 261', '1 ジェトミアの庭 (SNC) 250', '1 白熱のアリア (SNC) 192', '1 スパーラの本部 (SNC) 257', '1 希望の源、ジアーダ (SNC) 14', '1 救出専門家 (SNC) 12', '1 集団失踪 (SNC) 10', '1 路上芸術家、エラント (SNC) 41', '1 帳簿裂き (SNC) 46', '1 内密の調査員 (SNC) 63', '1 溜め池のクラーケン (SNC) 56', '1 盗聴 (SNC) 65', '1 しつこい負け犬 (SNC) 97', '1 強請る大入道 (SNC) 95', '1 血生臭いスパイ (SNC) 93', '1 墓所細工 (SNC) 69', '1 一切れの利益 (SNC) 72', '1 悪魔的な客室係 (SNC) 105', '1 顔壊しのプロ (SNC) 116', '1 蔓延する窃盗 (SNC) 130', '1 トラブルメーカー、ジャクシス (SNC) 112', '1 貯めこむ運び屋 (SNC) 109', '1 祝祭の出迎え (SNC) 148', '1 改変ドア (SNC) 144', '1 装飾庭園を踏み歩くもの (SNC) 160', '1 八百長試合 (SNC) 145', '1 作業場の戦長 (SNC) 165', '1 エイヴンの心臓刺し (SNC) 166', '1 死体の爆発 (SNC) 179', '1 闇市場の巨頭 (SNC) 167', '1 高街のペガサス (SNC) 211', '1 ラフィーンの塔 (SNC) 254', '1 虚空裂き (SNC) 230', '1 賢明な車掌、トルーズ (SNC) 228', '1 常夜会一家の隆盛 (SNC) 207', '1 常夜会一家の介入者 (SNC) 209', '1 ザンダーの居室 (SNC) 260', '1 貴顕廊一家の悪魔信者 (SNC) 200', '1 貴顕廊一家の隆盛 (SNC) 198', '1 敵意ある乗っ取り (SNC) 191', '1 欲深き者、エヴリン (SNC) 184', '1 土建組一家の隆盛 (SNC) 216', '1 ジアトラの特使 (SNC) 232', '1 ドラゴンの打擲、オーグニス (SNC) 210', '1 豪火を放て (SNC) 229', '1 ジェトミアの情婦、ジニー・フェイ (SNC) 195', '1 舞台座一家の隆盛 (SNC) 172', '1 俊足の踊り手 (SNC) 188', '1 斡旋屋一家の隆盛 (SNC) 170', '1 終わりなき迂回 (SNC) 183', '1 路上の師、リガ (SNC) 215', '1 解脱の魂 (SNC) 223', '1 未認可霊柩車 (SNC) 246', '1 逃走用の車 (SNC) 237'];
+const mythicrare=['1 光素の泉 (SNC) 15', '1 華やいだエルズペス (SNC) 11', '1 聖域の番人 (SNC) 30', '1 全知の調停者 (SNC) 34', '1 相応の報い (SNC) 42', '1 屍体洗浄屋 (SNC) 68', '1 受難の天使 (SNC) 67', '1 異端の法務官、ウラブラスク (SNC) 129', '1 狩りに出るビビアン (SNC) 162', '1 密造酒屋の隠し財産 (SNC) 134', '1 産業のタイタン (SNC) 159', '1 敵対するもの、オブ・ニクシリス (SNC) 206', '1 策謀の予 見者、ラフィーン (SNC) 213', '1 蒐集家、ザンダー卿 (SNC) 197', '1 焼却するもの、ジアトラ (SNC) 231', '1 契約紡ぎ、ファルコ・スパーラ (SNC) 186', '1 五者会談 (SNC) 202', '1 ジアーダの贈り物、 ラクシオール (SNC) 240', '1 宴の結節点、ジェトミア (SNC) 193', '1 秘儀の砲撃 (SNC) 101'];
+const hokan=[]
+
+//1回目
+var rorm = ["m", "r"];
+var w    = [10, 64];
+var sum  = w.reduce(function(sum, element){
+    return sum + element;
+}, 0);
+var x = Math.floor(Math.random() * sum);
+var r = ((x) => {
+    if (x <= w[0] ) {
+        return rorm[0];
+    } else {
+        return rorm[1];
+    }
+})(x);
+for (var i = 0; i < 10; i++) {
+var card = common[Math.floor(Math.random() * common.length)];
+document.write(card+"<br>");//コモン10枚
+}
+for (var i = 0; i < 3; i++) {
+var card = uncommon[Math.floor(Math.random() * uncommon.length)];
+document.write(card+"<br>");//アンコモン3枚
+}
+if ( r === rorm[1] ) {
+    var card = rare[Math.floor(Math.random() * rare.length)];
+    document.write(card+"<br>");//レア1枚
+} else {
+  var card = mythicrare[Math.floor(Math.random() * mythicrare.length)];
+  document.write(card+"<br>");//神話レア1枚
+}
+
+//2回目
+var rorm = ["m", "r"];
+var w    = [10, 64];
+var sum  = w.reduce(function(sum, element){
+    return sum + element;
+}, 0);
+var x = Math.floor(Math.random() * sum);
+var r = ((x) => {
+    if (x <= w[0] ) {
+        return rorm[0];
+    } else {
+        return rorm[1];
+    }
+})(x);
+for (var i = 0; i < 10; i++) {
+var card = common[Math.floor(Math.random() * common.length)];
+document.write(card+"<br>");//コモン10枚
+}
+for (var i = 0; i < 3; i++) {
+var card = uncommon[Math.floor(Math.random() * uncommon.length)];
+document.write(card+"<br>");//アンコモン3枚
+}
+if ( r === rorm[1] ) {
+    var card = rare[Math.floor(Math.random() * rare.length)];
+    document.write(card+"<br>");//レア1枚
+} else {
+  var card = mythicrare[Math.floor(Math.random() * mythicrare.length)];
+  document.write(card+"<br>");//神話レア1枚
+}
+
+//3回目
+var rorm = ["m", "r"];
+var w    = [10, 64];
+var sum  = w.reduce(function(sum, element){
+    return sum + element;
+}, 0);
+var x = Math.floor(Math.random() * sum);
+var r = ((x) => {
+    if (x <= w[0] ) {
+        return rorm[0];
+    } else {
+        return rorm[1];
+    }
+})(x);
+for (var i = 0; i < 10; i++) {
+var card = common[Math.floor(Math.random() * common.length)];
+document.write(card+"<br>");//コモン10枚
+}
+for (var i = 0; i < 3; i++) {
+var card = uncommon[Math.floor(Math.random() * uncommon.length)];
+document.write(card+"<br>");//アンコモン3枚
+}
+if ( r === rorm[1] ) {
+    var card = rare[Math.floor(Math.random() * rare.length)];
+    document.write(card+"<br>");//レア1枚
+} else {
+  var card = mythicrare[Math.floor(Math.random() * mythicrare.length)];
+  document.write(card+"<br>");//神話レア1枚
+}
+
+//4回目
+var rorm = ["m", "r"];
+var w    = [10, 64];
+var sum  = w.reduce(function(sum, element){
+    return sum + element;
+}, 0);
+var x = Math.floor(Math.random() * sum);
+var r = ((x) => {
+    if (x <= w[0] ) {
+        return rorm[0];
+    } else {
+        return rorm[1];
+    }
+})(x);
+for (var i = 0; i < 10; i++) {
+var card = common[Math.floor(Math.random() * common.length)];
+document.write(card+"<br>");//コモン10枚
+}
+for (var i = 0; i < 3; i++) {
+var card = uncommon[Math.floor(Math.random() * uncommon.length)];
+document.write(card+"<br>");//アンコモン3枚
+}
+if ( r === rorm[1] ) {
+    var card = rare[Math.floor(Math.random() * rare.length)];
+    document.write(card+"<br>");//レア1枚
+} else {
+  var card = mythicrare[Math.floor(Math.random() * mythicrare.length)];
+  document.write(card+"<br>");//神話レア1枚
+}
+
+//5回目
+var rorm = ["m", "r"];
+var w    = [10, 64];
+var sum  = w.reduce(function(sum, element){
+    return sum + element;
+}, 0);
+var x = Math.floor(Math.random() * sum);
+var r = ((x) => {
+    if (x <= w[0] ) {
+        return rorm[0];
+    } else {
+        return rorm[1];
+    }
+})(x);
+for (var i = 0; i < 10; i++) {
+var card = common[Math.floor(Math.random() * common.length)];
+document.write(card+"<br>");//コモン10枚
+}
+for (var i = 0; i < 3; i++) {
+var card = uncommon[Math.floor(Math.random() * uncommon.length)];
+document.write(card+"<br>");//アンコモン3枚
+}
+if ( r === rorm[1] ) {
+    var card = rare[Math.floor(Math.random() * rare.length)];
+    document.write(card+"<br>");//レア1枚
+} else {
+  var card = mythicrare[Math.floor(Math.random() * mythicrare.length)];
+  document.write(card+"<br>");//神話レア1枚
+}
+
+//6回目
+var rorm = ["m", "r"];
+var w    = [10, 64];
+var sum  = w.reduce(function(sum, element){
+    return sum + element;
+}, 0);
+var x = Math.floor(Math.random() * sum);
+var r = ((x) => {
+    if (x <= w[0] ) {
+        return rorm[0];
+    } else {
+        return rorm[1];
+    }
+})(x);
+for (var i = 0; i < 10; i++) {
+var card = common[Math.floor(Math.random() * common.length)];
+document.write(card+"<br>");//コモン10枚
+}
+for (var i = 0; i < 3; i++) {
+var card = uncommon[Math.floor(Math.random() * uncommon.length)];
+document.write(card+"<br>");//アンコモン3枚
+}
+if ( r === rorm[1] ) {
+    var card = rare[Math.floor(Math.random() * rare.length)];
+    document.write(card+"<br>");//レア1枚
+} else {
+  var card = mythicrare[Math.floor(Math.random() * mythicrare.length)];
+  document.write(card+"<br>");//神話レア1枚
+}
+
+// -->
+</script>
+</body>
+</html>
